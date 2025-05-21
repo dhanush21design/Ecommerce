@@ -1,4 +1,3 @@
-import React from 'react'
 import p1 from '../images/cloth1.webp'
 import p2 from '../images/cloth2.webp'
 import p3 from '../images/cloth3.webp'
@@ -14,6 +13,7 @@ import suriya from '../images/child.webp'
 import img1 from '../images/men.webp'
 import { useDispatch, useSelector } from 'react-redux'
 import { addtocart, deleteFromCart } from '../tool/Cartslice'
+import { Link } from 'react-router-dom'
 
 
 
@@ -179,22 +179,22 @@ const Shop = () => {
 
   <div className='properties mt-4'style={{alignSelf:"center",gap:"15px"}}>
 
-  <a href="#" class="d-flex color-item align-items-center">
+  <Link to='/' class="d-flex color-item align-items-center">
                   <span class="bg-danger color d-inline-block rounded-circle mr-2"></span>
                    <span class="text-black ">Red(2,429)</span>
-                </a>
-                <a href="#" class="d-flex color-item align-items-center">
+                </Link>
+                <Link to='/' class="d-flex color-item align-items-center">
                   <span class="bg-success color d-inline-block rounded-circle mr-2"></span>
                    <span class="text-black">Green(2,429)</span>
-                </a>
-                <a href="#" class="d-flex color-item align-items-center">
+                </Link>
+                <Link to='/' class="d-flex color-item align-items-center">
                   <span class="bg-info color d-inline-block rounded-circle mr-2"></span>
                    <span class="text-black">Blue(2,429)</span>
-                </a>
-                <a href="#" class="d-flex color-item align-items-center">
+                </Link>
+                <Link to='/' class="d-flex color-item align-items-center">
                   <span class="bg-primary color d-inline-block rounded-circle mr-2 "></span>
                    <span class="text-black">Purple(2,429)</span>
-                </a>
+                </Link>
                 
                 </div>
 
@@ -210,7 +210,7 @@ const Shop = () => {
               prod.map((item)=>(
                 <div className='col-lg-4 pt-5' key={item.id}>
                   <div className='card' style={{height:"100%"}}>
-                    <img className="image2" style={{height:"95%"}} src={item.image} alt=''/>
+                    <img className="image2" style={{height:"95%"}} src={item.image} alt='danush'/>
                     <p className='fs-3' style={{color:"#7971EA"}}>{item.name}</p>
                     <p className='fs-5'>{item.des}</p>
                     <p className='fs-4' style={{color:"#7971EA"}}>₹{item.price}</p>
@@ -266,12 +266,12 @@ const Shop = () => {
         <h2>Women</h2>
       </div>
       <div className='col-lg-4'>
-      <img src={suriya} alt='img'/>
+      <img src={suriya} alt='danush'/>
       <p class='mt-3'>COLLECTIONS</p>
         <h2>Children</h2>
       </div>
       <div className='col-lg-4'>
-      <img src={img1} alt='img'/>
+      <img src={img1} alt='danush'/>
       <p class='mt-3'>COLLECTIONS</p>
         <h2>Men</h2>
       </div>

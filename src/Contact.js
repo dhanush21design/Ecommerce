@@ -159,7 +159,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-4" style={{marginTop:"100px"}}>
                 <div>
-            <img src={commerce} className="float-end" style={{width:"275px"}}></img>
+            <img src={commerce} className="float-end" style={{width:"275px"}} alt='danuhs'></img>
           </div>
             </div>
           </div>

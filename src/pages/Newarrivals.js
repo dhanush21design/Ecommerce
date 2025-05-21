@@ -1,4 +1,3 @@
-import React from 'react'
 import p1 from '../images/cloth1.webp'
 import p2 from '../images/cloth2.webp'
 import p3 from '../images/cloth3.webp'
@@ -73,7 +72,7 @@ const Newarrivals = () => {
               prod.map((item)=>(
                 <div className='col-lg-6' key={item.id}>
                   <div className='card'>
-                    <img src={item.image} alt=''/>
+                    <img src={item.image} alt='danush'/>
                     <p>{item.name}</p>
                     <p>{item.des}</p>
                     <p>{item.price}</p>

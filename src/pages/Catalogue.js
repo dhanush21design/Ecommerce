@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { deleteFromCart, updateQuantity } from '../tool/Cartslice';
+import { deleteFromCart } from '../tool/Cartslice';
 import './cart.css'
 
 
@@ -14,15 +14,15 @@ const deleteCart = (item)=>{
   
 };
 
-const incrementCart = (id,quantity)=>{
-  dispatch(updateQuantity({id,quantity : quantity+1}))
-};
+// const incrementCart = (id,quantity)=>{
+//   dispatch(updateQuantity({id,quantity : quantity+1}))
+// };
 
-const decrementCart = (id,quantity)=>{
-  if(quantity>1){
-  dispatch(updateQuantity({id,quantity : quantity+1}))
-  }
-};
+// const decrementCart = (id,quantity)=>{
+//   if(quantity>1){
+//   dispatch(updateQuantity({id,quantity : quantity+1}))
+//   }
+// };
 
 
 // const totalQuantity = Cartproducts.reduce((total,item)=>total+item.quantity,0);
@@ -38,7 +38,7 @@ const decrementCart = (id,quantity)=>{
               Cartproducts.map((item)=>(
                 <div className='col-lg-4' key={item.id}>
                   <div className='card'>
-                    <img src={item.image}></img>
+                    <img src={item.image} alt='danush'></img>
                     <h1 className='text-dark'>{item.name}</h1>
                     <p> ₹{item.price} </p>
                     <p>{item.des}</p>

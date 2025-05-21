@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { Link } from 'react-router-dom'
+
 import shoe from '../images/hero1.jpg'
 
 const Bottom = () => {
@@ -32,7 +32,7 @@ const Bottom = () => {
 <div className='row col-lg-3'>
 <div class="pictures">
 <h4>Promo</h4>
-<img src={shoe}style={{width:"100%"}}></img>
+<img src={shoe}style={{width:"100%"}} alt='danush'></img>
 
 <h3 className='mt-3'style={{fontSize:"18px",color:"#7971EA"}}>Finding your perfect shoes</h3>
 </div>

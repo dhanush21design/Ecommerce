@@ -4,7 +4,7 @@ import suriya from '../images/child.webp'
 import img1 from '../images/men.webp'
 import cloth from '../images/cloth1.webp'
 import cloth2 from '../images/cloth2.webp'
-import React, { useRef, useState } from 'react';
+// import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -86,12 +86,12 @@ const Hom = () => {
         <h2>Women</h2>
       </div>
       <div className='col-lg-4'>
-      <img src={suriya} alt='img'/>
+      <img src={suriya} alt='danush'/>
       <p class='mt-3'>COLLECTIONS</p>
         <h2>Children</h2>
       </div>
       <div className='col-lg-4'>
-      <img src={img1} alt='img'/>
+      <img src={img1} alt='danush'/>
       <p class='mt-3'>COLLECTIONS</p>
         <h2>Men</h2>
       </div>
@@ -125,23 +125,23 @@ const Hom = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={cloth} alt=''/>
+          <img src={cloth} alt='danush'/>
           <h3 className='mt-5'style={{color:"#7971EA"}}>Tank top</h3>
           <p>finding perfect t-shirt</p>
           <h4 class='dollar' style={{fontSize:"20px"}}>$50</h4>
         </SwiperSlide>
-        <SwiperSlide><img src={shoe} alt=''/>
+        <SwiperSlide><img src={shoe} alt='danush'/>
         <h3 className='mt-5'style={{color:"#7971EA"}}>Corater</h3>
           <p>finding perfect products</p>
           <h4 class='dollar' style={{fontSize:"20px"}}>$50</h4></SwiperSlide>
         
         <SwiperSlide>
-          <img src={cloth2} alt=''/>
+          <img src={cloth2} alt='danush'/>
         <h3 className='mt-5'style={{color:"#7971EA"}}>Polo Shirt</h3>
           <p>finding perfect products</p>
           <h4 class='dollar' style={{fontSize:"20px"}}>$50</h4></SwiperSlide>
         
-        <SwiperSlide><img src={cloth3} alt=''/>
+        <SwiperSlide><img src={cloth3} alt='danush'/>
         <h3 className='mt-5'style={{color:"#7971EA"}}>T-shirt Mockup</h3>
           <p>finding perfect products</p>
           <h4 class='dollar' style={{fontSize:"20px"}}>$50</h4></SwiperSlide>

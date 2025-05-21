@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import blog from '../images/blog1.webp'
 import person1 from '../images/person1.webp'
 import person2 from '../images/person2.webp'
@@ -16,7 +16,7 @@ const About = () => {
 <center>
 <div className='container row'>
 <div className='col-lg-6'>
-<img src={blog} style={{width:'100%'}}/>
+<img src={blog} style={{width:'100%'}} alt='danush'/>
 </div>
 
 <div className='col-lg-6 mt-2'>
@@ -41,25 +41,25 @@ const About = () => {
   
   <div className='col-md-6 col-lg-3'>
 
-          <img src={person1} alt='' style={{borderRadius:'450px',width:'125px'}}/>
+          <img src={person1} alt='danush' style={{borderRadius:'450px',width:'125px'}}/>
           <h3 className='mt-5'style={{color:"#000000"}}>Elizabeth Graham</h3>
           <p className='opacity-75 fs-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.</p>
         </div>  
         
         <div className='col-md-6 col-lg-3'>
-          <img src={person2} style={{borderRadius:'450px',width:'125px'}} alt=''/>
+          <img src={person2} style={{borderRadius:'450px',width:'125px'}} alt='danush'/>
         <h3 className='mt-5'style={{color:"#000000"}}>Jennifer Greive</h3>
           <p className='opacity-75 fs-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.</p>
           </div>
 
           <div className='col-md-6 col-lg-3'>
-          <img src={person3} style={{borderRadius:'450px',width:'125px'}} alt=''/>
+          <img src={person3} style={{borderRadius:'450px',width:'125px'}} alt='danush'/>
         <h3 className='mt-5'style={{color:"#000000"}}>Patrick Marx</h3>
           <p className='opacity-75 fs-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.</p>
           </div>
 
           <div className='col-md-6 col-lg-3'>
-          <img src={person4} style={{borderRadius:'450px',width:'125px'}} alt=''/>
+          <img src={person4} style={{borderRadius:'450px',width:'125px'}} alt='danush'/>
         <h3 className='mt-5'style={{color:"#000000"}}>Mike Coolbert</h3>
           <p className='opacity-75 fs-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.</p>
         
