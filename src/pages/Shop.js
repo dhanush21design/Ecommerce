@@ -12,7 +12,6 @@ import './shop.css'
 import danush from '../images/wom.webp'
 import suriya from '../images/child.webp'
 import img1 from '../images/men.webp'
-import promo from '../images/hero_1.jpg'
 import { useDispatch, useSelector } from 'react-redux'
 import { addtocart, deleteFromCart } from '../tool/Cartslice'
 

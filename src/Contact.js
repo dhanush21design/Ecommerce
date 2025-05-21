@@ -1,6 +1,6 @@
 import React from 'react'
 import commerce from './images/download.jpg'
-import promo from './images/hero_1.jpg'
+
 
 const Contact = () => {
   return (
@@ -170,64 +170,7 @@ const Contact = () => {
       <br></br>
 
       <hr></hr>
-      {/* <section className="details">
-        <div class="container" style={{ marginTop: "100px" }}>
-          <h2 class="mt-3" style={{ fontSize: "25px" }}>
-            Navigations
-          </h2>
-          <div className="row">
-            <div class=" tree2 col-lg-10 d-flex  mt-3" style={{ gap: "15px" }}>
-              <ol
-                className="list"
-                style={{
-                  listStyle: "none",
-                  fontSize: "15px",
-                  width: "150px",
-                  gap: "15px",
-                }}
-              >
-                <li>Sell online</li>
-                <li class="g-3">Features</li>
-                <li>Shopping cart</li>
-                <li>Store builder</li>
-              </ol>
-              <ol
-                className="list"
-                style={{
-                  listStyle: "none",
-                  fontSize: "15px",
-                  width: "150px",
-                  gap: "15px",
-                }}
-              >
-                <li>mobile commerce</li>
-                <li>Drop shipping</li>
-                <li>Website development</li>
-              </ol>
-              <ol
-                className="list"
-                style={{
-                  listStyle: "none",
-                  fontSize: "15px",
-                  width: "300px",
-                  gap: "15px",
-                }}
-              >
-                <li>Point of sale</li>
-                <li>Hardware</li>
-                <li>Software</li>
-              </ol>
-
-              <div className="promo float-start">
-                <div class="img">
-                  <h2 className="heading">PROMO</h2>
-                  <img src={promo} style={{ width: "250px" }} alt="img3" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      
     </>
   );
 }
