@@ -1,0 +1,9 @@
+.ordered{
+    list-style: none;
+    font-size: 16px;
+    opacity: 0.75;
+}
+
+.pictures{
+    width: 100%;
+}

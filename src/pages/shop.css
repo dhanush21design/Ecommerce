@@ -1,0 +1,21 @@
+.card h5,h6{
+    color: #7971EA;
+}
+
+.bg-danger{
+    background-color: red;
+}
+
+.color-item .color {
+    width: 14px;
+    height: 14px;
+}
+
+.mr-2, .mx-2 {
+    margin-right: 0.5rem;
+}
+
+.bg-primary {
+    background-color: purple;
+}
+
